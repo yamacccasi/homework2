@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* header styling */
+
+.nav-bar {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-menu a {
+  outline: none;
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.nav-menu li:nth-child(1) {
+  margin-right: 72px;
+}
+
+.nav-menu li:nth-child(3) {
+  margin-right: 50px;
+  margin-left: 72px;
+}
+
+/* finish header styling */
+
+/* main styling */
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.represent {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 3.299999952316284px;
+}
+
+.text-block {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 38px;
+  margin-bottom: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2.4px;
+  line-height: 26px;
+  color: #373737;
+}
+
+.button {
+  width: 191px;
+  height: 51px;
+  margin: 0 auto;
+}
+
+.button-text {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-top: 51px;
+  background-color: #ff0000;
+  color: white;
+}
+
+/* footer styling */
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2.4000000953674316px;
+  margin-top: 82px;
+  margin-right: 105px;
+}
